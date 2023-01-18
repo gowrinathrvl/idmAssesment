@@ -1,0 +1,14 @@
+.container {
+  margin: 5%;
+  padding: 5%;
+  box-shadow: 2px 1px 10px 1px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 16px;
+}

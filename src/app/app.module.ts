@@ -9,6 +9,7 @@ import { MaterialModule } from './material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [AppComponent, DetailsComponent, SearchComponent],
@@ -21,7 +22,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    // { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { height: '900px' } },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

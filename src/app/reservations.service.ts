@@ -18,7 +18,7 @@ export class ReservationsService {
     return this.data.subscribe((x) => {
       x == id;
       // console.log(x);
-      console.log(id);
+      // console.log(id);
     });
   }
 }
